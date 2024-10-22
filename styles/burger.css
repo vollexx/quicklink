@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 768px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.container .burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    max-width: 728px;
+    width: 100%;
+    background: rgba(51, 51, 51, 1);
+    border-radius: 32px;
+    margin: 64px 20px 100px 20px;
+}
+
+.container .open-burger {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 18px 24px 0 24px;
+}
+
+.container .open-burger .burger {
+    cursor: pointer;
+    max-width: 56px;
+}
+
+.container .burger-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px;
+
+}
+
+.container .burger-list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 8px 24px 24px;
+    border-bottom: 1px solid rgba(118, 117, 123, 1);
+}
+
+.container .burger-list .item-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 8px 24px 24px;
+}
+
+.container .burger-list .item .title,
+.container .burger-list .item-last .title {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.container .burger-list .item .title:hover,
+.container .burger-list .item-last .title:hover {
+    color: rgba(245, 250, 147, 1);
+}
+
+.container .burger-list .item .burger-icon {
+    max-width: 56px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .container .burger-menu {
+        max-width: 335px;
+    }
+}

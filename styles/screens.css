@@ -1,0 +1,254 @@
+.screens {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.screens .profile {
+    position: relative;
+    height: 430px;
+}
+
+.screens .profile .profile-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 72px;
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    background: rgba(20, 14, 23, 1);
+    position: absolute;
+    max-width: 658px;
+    width: 100%;
+    top: 74px;
+    right: 171px;
+    z-index: 1;
+}
+
+.screens .profile .profile-web .photo {
+    max-width: 182px;
+    width: 100%;
+}
+
+.screens .profile .profile-web .title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 251px;
+    width: 100%;
+}
+
+.screens .profile .profile-web .title .name {
+    font-family: Manrope;
+    font-size: 31.04px;
+    font-weight: 800;
+    line-height: 34.14px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens .profile .profile-web .title .about {
+    font-family: Manrope;
+    font-size: 10.95px;
+    font-weight: 500;
+    line-height: 12.78px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens .profile .profile-web .title .button {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    max-width: 105px;
+    width: 100%;
+    padding: 6px;
+    margin-top: 37px;
+    align-items: center;
+    background: rgba(249, 214, 158, 1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.screens .profile .profile-web .title .button .text-button {
+    padding-left: 23px;
+    font-family: Manrope;
+    font-size: 8.22px;
+    font-weight: 600;
+    line-height: 11.22px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .profile .profile-web .title .button .arrow {
+    padding-right: 10px;
+    max-width: 7px;
+    width: 100%;
+}
+
+.screens .profile .company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    background: rgba(20, 14, 23, 1);
+    padding: 17px;
+    max-width: 545px;
+    width: 100%;
+    position: absolute;
+    top: 106px;
+    right: 405px;
+}
+
+.screens .profile .company-list .title {
+    font-family: Manrope;
+    font-size: 17.97px;
+    font-weight: 600;
+    line-height: 19.46px;
+    color: rgba(170, 219, 107, 1);
+}
+
+.screens .profile .company-list .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.screens .profile .company-list .job-list .job .company {
+    font-family: Manrope;
+    font-size: 17.97px;
+    font-weight: 500;
+    line-height: 20.96px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens .profile .company-list .job-list .job .company .period {
+    font-family: Manrope;
+    font-size: 13.48px;
+    font-weight: 500;
+    line-height: 19.46px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.screens .profile .company-list .job-list .job .company-link a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 13.48px;
+    font-weight: 500;
+    line-height: 19.46px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.screens .profile .company-list .job-list .job .position {
+    font-family: Manrope;
+    font-size: 13.48px;
+    font-weight: 500;
+    line-height: 19.46px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens .profile .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 24px;
+    background: rgba(255, 175, 176, 1);
+    border-radius: 21px;
+    max-width: 220px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.screens .profile .card .item .project-photo {
+    max-width: 170px;
+    width: 100%;
+}
+
+.screens .profile .card .item .project {
+    display: flex;
+    flex-direction: column;
+}
+
+.screens .profile .card .item .project .project-name {
+    font-family: Manrope;
+    font-size: 27.51px;
+    font-weight: 700;
+    line-height: 35.37px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .profile .card .item .project .project-description {
+    font-family: Manrope;
+    font-size: 11.79px;
+    font-weight: 500;
+    line-height: 17.03px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .profile .card .item .project .show-project {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+    padding-top: 12px;
+    padding-left: 60px;
+}
+
+.screens .profile .card .item .project .show-project a {
+    text-decoration: none;
+}
+
+.screens .profile .card .item .project .show-project .button {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 12px;
+    max-width: 117px;
+    width: 100%;
+    padding: 9px 11px;
+}
+
+.screens .profile .card .item .project .show-project .button .look-project {
+    font-family: Manrope;
+    font-size: 11.79px;
+    font-weight: 600;
+    line-height: 16.11px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.screens .description {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+    padding: 24px;
+    align-items: end;
+}
+
+.screens .description .text {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.screens .description .button {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(51, 51, 51, 1);
+    max-width: 255px;
+    width: 100%;
+    border-radius: 18px;
+    padding: 14px 18px;
+    cursor: pointer;
+}

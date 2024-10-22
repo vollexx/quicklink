@@ -1,0 +1,60 @@
+.hero-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0 auto;
+}
+
+.hero-block .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    max-width: 539px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-block .text-content .title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.hero-block .text-content .title .bold {
+    font-family: Manrope;
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 74.8px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-block .text-content .title .illustration {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    max-width: 114px;
+    width: 100%;
+}
+
+.hero-block .text-content .underline {
+    position: absolute;
+    left: 57px;
+    top: 210px;
+    padding-top: 10px;
+}
+
+.hero-block .text-content .description {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-block .hero-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 444px;
+    width: 100%;
+}
